@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Creat My Song</title>
+    <link rel="stylesheet" href="../css/create-song.css">
+</head>
+<body>
+    <ul>
+        <li><a href="register.html" title="Register member">Register</a></li>
+        <li><a href="login.html" title="Member login">Login</a></li>
+        <li><a href="creat-song.html" title="Create Song">Create Song</a></li>
+        <li><a href="list-song.html" title="Latest Song">Latest Song</a></li>
+        <li><a href="my-song.html" title="My Song">My Song</a></li>
+    </ul>
+    <h1>CREATE MY SONG</h1>
+    <div class="container">
+        <form action="" name="song-form">
+            <div>
+                <label>Name</label>
+                <input type="text" name="name" class="form-control">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div>
+                <label>Singer Name</label>
+                <input type="text" name="singername" class="form-control">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div>
+                <label>Description</label>
+                <input type="text" name="description" class="form-control">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div>
+                <label>Author</label>
+                <input type="text" name="author" class="form-control">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div>
+                <label>Thumbnail</label>
+                <input type="url" name="thumbnail" class="form-control">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div>
+                <label>Link</label>
+                <input type="url" name="link" class="form-control">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div>
+                <label>&nbsp;</label>
+                <input type="button" name="btn-submit" value="submit" class="form-control">
+                <input type="reset" name="btn-reset" value="reset" class="form-control">
+            </div>
+        </form>
+    </div>
+    <script src="../js/creat-song.js"></script>
+</body>
+</html>

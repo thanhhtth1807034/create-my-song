@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+<body>
+    <ul>
+        <li><a href="register.html" title="Register member">Register</a></li>
+        <li><a href="login.html" title="Member login">Login</a></li>
+        <li><a href="creat-song.html" title="Create Song">Create Song</a></li>
+        <li><a href="list-song.html" title="Latest Song">Latest Song</a></li>
+        <li><a href="my-song.html" title="My Song">My Song</a></li>
+    </ul>
+    <h1>Register</h1>
+    <div class="container">
+        <form action="" name="register-form">
+            <div class="form-group">
+                <label>Firstname</label>
+                <input type="text" name="firstname" class="form-controls">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div class="form-group">
+                <label>Lastname</label>
+                <input type="text" name="lastname" class="form-controls">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div class="form-group">
+                <label>Password</label>
+                <input type="password" name="password" class="form-controls">
+                <span class="danger-text hidden-text"></span>
+            </div>
+
+            <div class="form-group">
+                <label>Address</label>
+                <input type="text" name="address" class="form-controls">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div class="form-group">
+                <label>Phone</label>
+                <input type="text" name="phone" class="form-controls">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div class="form-group">
+                <label>Avatar</label>
+                <input type="url" name="avatar" class="form-controls">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="1">Male</option>
+                    <option value="0">Female</option>
+                    <option value="2">Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="text" name="email" class="form-controls">
+                <span class="danger-text hidden-text"></span>
+            </div>
+            <div class="form-group">
+                <label>Birthday</label>
+                <input type="date" name="birthday" class="form-controls">
+            </div>
+            <div class="form-group">
+                <label>&nbsp;</label>
+                <input type="button" name="btn-submit" value="submit" class="form-controls">
+                <input type="reset" name="btn-reset" value="reset" class="form-controls">
+            </div>
+        </form>
+    </div>
+    <script src="../js/register.js"></script>
+</body>
+</html>
